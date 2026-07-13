@@ -25,7 +25,7 @@ const comparisons = [
 
 const reasons = [
   "Deploy อัตโนมัติเมื่อ push ขึ้น GitHub",
-  "รองรับ Next.js โดยตรง ไม่ต้องตั้งค่าซับซ้อน",
+  "รองรับ framework สมัยใหม่ เช่น Next.js",
   "มี Preview URL ให้ทดสอบก่อนขึ้น production",
   "ใช้ฟรีสำหรับ personal project",
   "รองรับทั้ง static และ serverless ได้ในที่เดียว",
@@ -65,7 +65,7 @@ export default function ComparePage() {
 
         <section className="mb-10">
           <h2 className="mb-5 text-xl font-medium tracking-tight text-foreground sm:text-2xl">
-            บริการที่เลือกใช้: Vercel
+            บริการที่เลือกใช้ Vercel
           </h2>
           <ul className="space-y-2.5 border-t border-border pt-5 text-sm leading-relaxed text-muted">
             {reasons.map((reason) => (
@@ -76,7 +76,7 @@ export default function ComparePage() {
       </main>
 
       <footer className="border-t border-border py-5 text-center text-xs text-muted">
-        <p>ชื่อ-นามสกุล นายอภิสิทธิ์ ปัญญา รหัสนักศึกษา 6401025453</p>
+        <p>นายอภิสิทธิ์ ปัญญา รหัสนักศึกษา 6401025453</p>
         <p className="mt-1">สาขาวิศวกรรมซอฟต์แวร์ และระบบสารสนเทศ</p>
         <p className="mt-1">สถาบันเทคโนโลยีปทุมวัน</p>
       </footer>
